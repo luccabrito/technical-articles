@@ -60,7 +60,7 @@ Para tornar falhas previsíveis, é necessário ir além do planejamento passivo
 
 O <i>desempenho</i>, um dos princípios de disponibilidade de produção, se refere a quão bem um microsserviço consegue tratar as requisições que chegam até ele. Caso ele trate as solicitações rapidamente, processe as tarefas de forma eficiente e use adequadamente os seus recursos, este é um microsserviço de alto desempenho.
 
-Por exemplo, caso um microsserviço processe e trate tarefas simultaneamente em casos em que um processamento assíncrono de chamadas melhoraria o seu desempenho, este é um dos gargalos que prejudicam o desempenho deste serviço.
+Por exemplo, caso um microsserviço processe e trate tarefas de forma síncrona em casos em que um processamento assíncrono de chamadas melhoraria o seu desempenho, este é um dos gargalos que prejudicam o desempenho deste serviço.
 
 
 <hr>
